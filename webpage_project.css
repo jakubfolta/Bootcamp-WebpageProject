@@ -27,8 +27,8 @@
     list-style-type: none;
     display: inline-block;
     float: right;
-    margin: 5px 200px;
-    padding: 10px;
+    margin-top: 20px;
+    margin-right: 200px;
 }
 
 .menu_item {
@@ -41,3 +41,6 @@
     text-decoration: none;
     display: inline;
 }
+
+
+/* TODO: Set project to "finished" on github */
