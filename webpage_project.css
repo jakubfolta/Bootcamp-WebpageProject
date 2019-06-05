@@ -17,3 +17,15 @@
     height: 100vh;
     overflow: hidden;
 }
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu_item {
+    display: inline-block;
+}
