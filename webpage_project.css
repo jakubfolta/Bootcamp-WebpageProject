@@ -18,14 +18,26 @@
     overflow: hidden;
 }
 
+.nav_logo {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
 .menu {
     list-style-type: none;
     display: inline-block;
     float: right;
-    margin: 5px;
+    margin: 5px 200px;
     padding: 10px;
 }
 
 .menu_item {
     display: inline-block;
+    padding: 5px;
+}
+
+.item_link {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
 }
