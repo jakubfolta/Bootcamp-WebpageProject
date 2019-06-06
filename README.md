@@ -9,6 +9,9 @@
 ## Status
 Project is UNfinished.<br>
 
+## Graphic from client 
+![Example](./images/responsive_webpage.jpg)
+
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
 
