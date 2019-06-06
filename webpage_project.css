@@ -26,7 +26,6 @@
     float: left;
 }
 
-
 .container {
     width: 100%;
     max-width: 1920px;
@@ -81,6 +80,8 @@
 
 .heading_col {
     padding-top: 250px;
+    padding-bottom: 10px;
+    line-height: 5px;
 }
 
 .heading_1,
@@ -99,10 +100,23 @@
     color: #d5d0d0;
 }
 
+.heading_cd::after {
+    width: 250px;
+    content: "";
+    display: table;
+    color: #fff;
+    border-top: 3px solid #fff;
+    margin-left: 650px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .offer_paragraph {
     line-height: 10px;
     color: #d5d0d0;
-    padding-top: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 
