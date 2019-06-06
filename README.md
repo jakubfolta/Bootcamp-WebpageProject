@@ -10,7 +10,7 @@
 Project is UNfinished.<br>
 
 ## Graphic from client 
-![Example](./images/responsive_webpage.jpg)
+![Example](./images/example.jpg)
 
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
