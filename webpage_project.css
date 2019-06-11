@@ -123,5 +123,21 @@
     margin-top: 60px;
 }
 
+.show_more {
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: #e71e49;
+    border: none;
+    width: 150px;
+    padding: 10px;
+}
+
+.show_more_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 /* TODO: Set project to "finished" on github */
