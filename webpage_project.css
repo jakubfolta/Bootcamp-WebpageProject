@@ -84,6 +84,12 @@
     line-height: 5px;
 }
 
+.heading_1,
+.heading_cd {
+    color: #fff;
+    display: inline;
+    font-size: 50px;
+}
 
 
 /* TODO: Set project to "finished" on github */
