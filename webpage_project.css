@@ -78,5 +78,12 @@
     text-align: center;
 }
 
+.heading_col {
+    padding-top: 250px;
+    padding-bottom: 10px;
+    line-height: 5px;
+}
+
+
 
 /* TODO: Set project to "finished" on github */
