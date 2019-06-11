@@ -91,5 +91,14 @@
     font-size: 50px;
 }
 
+.heading_1 {
+    font-weight: 900;
+}
+
+.heading_cd {
+    margin-left: 6px;
+    color: #d5d0d0;
+}
+
 
 /* TODO: Set project to "finished" on github */
