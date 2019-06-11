@@ -48,5 +48,16 @@
     text-align: center;
 }
 
+.nav_logo {
+    margin-top: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
 
 /* TODO: Set project to "finished" on github */
