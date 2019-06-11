@@ -111,5 +111,17 @@
     padding-bottom: 0;
 }
 
+.offer_paragraph {
+    line-height: 10px;
+    color: #d5d0d0;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    text-align: center;
+    margin-top: 60px;
+}
+
 
 /* TODO: Set project to "finished" on github */
