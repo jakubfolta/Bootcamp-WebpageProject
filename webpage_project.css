@@ -70,5 +70,13 @@
     display: inline;
 }
 
+.item_link:hover {
+    color: #d73c3c;
+}
+
+.offer {
+    text-align: center;
+}
+
 
 /* TODO: Set project to "finished" on github */
