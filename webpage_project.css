@@ -147,9 +147,24 @@
     height: 1.5em;
 }
 
+.section_2 {
+    padding-top: 60px;
+}
 
+.description {
+    padding-left: 60px;
+}
 
+.heading_2 {
+    color: #d5d0d0;
+    font-style: italic;
+}
 
+.image_cyber {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
 
 
 
