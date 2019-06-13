@@ -57,6 +57,7 @@
     display: inline-block;
     margin-top: 20px;
     text-align: left;
+    padding: 0;
 }
 
 .menu_item {
@@ -164,6 +165,14 @@
 
     .menu {
         text-align: center;
+    }
+
+    .align_right {
+        text-align: right;
+    }
+
+    .align_left {
+        text-align: left;
     }
 }
 
