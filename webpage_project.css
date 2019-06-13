@@ -139,12 +139,12 @@
 
 .full_color {
     background-color: #e71e49;
-    height: 2em;
+    height: 1.5em;
 }
 
 .linear_color {
-    background: linear-gradient(to bottom right, #e71e49 50%, #fff 50%);
-    height: 2em;
+    background: linear-gradient(to bottom right, #e71e49 50%, #fff 52%);
+    height: 1.5em;
 }
 
 
@@ -190,6 +190,7 @@
         content: "";
         display: table;
         border-top: 3px solid #e71e49;
+        text-align: center;
         margin-left: 110px;
         margin-top: 20px;
         margin-bottom: 0;
