@@ -137,6 +137,17 @@
     color: #fff;
 }
 
+.full_color {
+    background-color: #e71e49;
+    height: 2em;
+}
+
+.linear_color {
+    background: linear-gradient(to bottom right, #e71e49 50%, #fff 50%);
+    height: 2em;
+}
+
+
 
 
 
@@ -165,6 +176,29 @@
 
     .menu {
         text-align: center;
+    }
+
+    .menu_item,
+    .heading_1,
+    .heading_cd,
+    .paragraph {
+        font-size: .8em;
+    }
+
+    .heading_cd::after {
+        width: 120px;
+        content: "";
+        display: table;
+        border-top: 3px solid #e71e49;
+        margin-left: 110px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+
+    .show_more {
+        width: 120px;
+        font-size: 8px;
     }
 
     .align_right {
