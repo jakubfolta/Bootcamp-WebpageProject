@@ -248,14 +248,17 @@
     margin-top: 20px;
 }
 
-.services_icon {
+.icon_button {
     width: 75px;
     height: 75px;
     color: #e71e49;
+    background-color: #fff;
     border: 1px solid #e4dddb;
     border-radius: 50%;
     font-size: 40px;
-    padding: 15px;
+}
+
+.services_icon {
 }
 
 .icon_paragraph {
