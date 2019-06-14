@@ -315,8 +315,32 @@
 
 .prices {
     text-align: center;
-    padding: 0 500px;
+    padding: 50px 500px;
+    background-color: #e4dddb;
 }
+
+.grey_column {
+    background: linear-gradient(#5d4d4d 50%, #fff 50%);
+    margin: 0 10px;
+}
+
+.price {
+    padding: 10px;
+}
+
+.dollar {
+    display: inline-block;
+}
+
+.price_number {
+    display: inline-block;
+    font-size: 28px;
+}
+
+
+
+
+
 
 
 
