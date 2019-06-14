@@ -117,6 +117,10 @@
     color: #d5d0d0;
 }
 
+.paragraph {
+    line-height: 30px;
+}
+
 .heading_cd::after {
     width: 250px;
     content: "";
@@ -223,24 +227,31 @@
 .services {
     background-color: #fff;
     text-align: center;
-    color: #8b7979;
     float: none;
     margin-top: 100px;
+    padding: 0 500px;
 }
 
-.services_heading {
+.heading_3 {
+    color: #8b7979;
     font-size: 28px;
     font-weight: 500;
+    font-style: italic;
 }
 
-.services_heading::after {
+.heading_3::after {
     width: 250px;
     content: "";
     display: table;
     border-top: 3px solid #e71e49;
     margin-top: 20px;
-    margin-left: 630px;
+    margin-left: 135px;
     padding-bottom: 20px;
+}
+
+.services_paragraph {
+    color: #8b7979;
+    font-size: 12px;
 }
 
 .services_column {
@@ -249,24 +260,63 @@
 }
 
 .icon_button {
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
     color: #e71e49;
     background-color: #fff;
     border: 1px solid #e4dddb;
     border-radius: 50%;
-    font-size: 40px;
-}
-
-.services_icon {
+    font-size: 50px;
 }
 
 .icon_paragraph {
     color: #e71e49;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
 }
 
+.opinions {
+    background-color: #8747ff;
+    background: url("https://cdn.pixabay.com/photo/2015/12/08/00/36/woman-1081873_1280.jpg") center/cover;
+    padding: 50px 0;
+}
 
+.quotes {
+    color: #e71e49;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.opinions_paragraph {
+    text-align: center;
+    color: #d5d0d0;
+    font-style: italic;
+    padding: 0 70px;
+    font-size: 18px;
+}
+
+.left_arrow {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 30px;
+    margin: 16px 0;
+    color: #d5d0d0;
+}
+
+.right_arrow {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px;
+    margin: 16px 0;
+    color: #d5d0d0;
+}
+
+.prices {
+    text-align: center;
+    padding: 0 500px;
+}
 
 
 
