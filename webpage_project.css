@@ -42,7 +42,7 @@
 .container {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .row::before,
@@ -97,7 +97,7 @@
 }
 
 .heading_col {
-    padding-top: 250px;
+    padding-top: 150px;
     padding-bottom: 10px;
 }
 
@@ -164,7 +164,7 @@
     height: 1.5em;
 }
 
-.section_2 {
+.template_section {
     background-color: #e4dddb;
 }
 
