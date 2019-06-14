@@ -21,6 +21,19 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.col-offset-1 {width: 8.33%;}
+.col-offset-2 {width: 16.66%;}
+.col-offset-3 {width: 25%;}
+.col-offset-4 {width: 33.33%;}
+.col-offset-5 {width: 41.66%;}
+.col-offset-6 {width: 50%;}
+.col-offset-7 {width: 58.33%;}
+.col-offset-8 {width: 66.66%;}
+.col-offset-9 {width: 75%;}
+.col-offset-10 {width: 83.33%;}
+.col-offset-11 {width: 91.66%;}
+.col-offset-0 {width: 0;}
+
 [class*="col-"] {
     min-height: 1px;
     float: left;
@@ -147,34 +160,43 @@
 }
 
 .linear_color {
-    background: linear-gradient(to bottom right, #e71e49 50%, #fff 52%);
+    background: linear-gradient(to bottom right, #e71e49 50%, #d5d0d0 52%);
     height: 1.5em;
 }
 
 .section_2 {
-
     background-color: #d5d0d0;
 }
 
 .description {
     padding-left: 200px;
     padding-right: 50px;
+    padding-top: 100px;
 }
 
-.heading_2 {
+.description_heading {
     color: #8b7979;
     font-style: italic;
     margin: 0;
+    font-size: 28px;
+    font-weight: 500;
 }
 
-.paragraph {
+.description_paragraph {
     color: #8b7979;
+    line-height: 30px;
+}
+
+.image {
+    padding-top: 80px;
+    padding-right: 30px;
+    margin-bottom: -30px;
 }
 
 .image_cyber {
-    max-width: 100%;
     width: 100%;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
 }
 
 
