@@ -223,7 +223,9 @@
 .services {
     background-color: #fff;
     text-align: center;
-    color: #8b7979
+    color: #8b7979;
+    float: none;
+    margin-top: 100px;
 }
 
 .services_heading {
@@ -237,13 +239,29 @@
     display: table;
     border-top: 3px solid #e71e49;
     margin-top: 20px;
+    margin-left: 630px;
     padding-bottom: 20px;
 }
 
-.services_paragraph {
-
+.services_column {
+    text-align: center;
+    margin-top: 20px;
 }
 
+.services_icon {
+    width: 75px;
+    height: 75px;
+    color: #e71e49;
+    border: 1px solid #e4dddb;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.icon_paragraph {
+    color: #e71e49;
+    text-transform: uppercase;
+}
 
 
 
