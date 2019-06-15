@@ -415,9 +415,49 @@
     color: #8b7979;
 }
 
+.join_us {
+    background-color: #e71e49;
+    padding: 50px 100px;
+}
 
+.join_column {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.joinus_heading {
+    display: inline-block;
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.joinus_paragraph {
+    font-size: 30px;
+    display: inline-block;
+    color: #d5d0d0;
+    text-transform: uppercase;
+}
+
+.joinus_button {
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 10px 40px;
+    margin-left: 20px;
+}
+
+.joinbutton_link {
+    text-decoration: none;
+    color: #e71e49;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 
 @media (max-width: 767px) {
