@@ -240,12 +240,12 @@
 }
 
 .heading_3::after {
-    width: 250px;
+    width: 160px;
     content: "";
     display: table;
     border-top: 3px solid #e71e49;
     margin-top: 20px;
-    margin-left: 135px;
+    margin-left: 180px;
     padding-bottom: 20px;
 }
 
@@ -320,7 +320,7 @@
     background-color: #e4dddb;
 }
 
-.prices_description {
+.box {
     padding: 50px 500px;
 }
 
@@ -457,6 +457,11 @@
     color: #e71e49;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.latest_updates {
+    text-align: center;
+    background-color: #e4dddb;
 }
 
 
