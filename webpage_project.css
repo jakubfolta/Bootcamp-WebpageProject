@@ -324,8 +324,9 @@
 }
 
 .grey_column {
-    background: linear-gradient(#5d4d4d 40%, #fff 40%);
+    background: linear-gradient(#5d4d4d 34%, #fff 34%);
     margin: 0 10px;
+    padding-bottom: 20px;
 }
 
 .price {
@@ -345,24 +346,36 @@
 
 .frequency {
     margin: 0;
+    font-size: 12px;
 }
 
 .package_type {
-
     border-radius: 25px;
     background-color: #e4dddb;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 10px 20px;
-    margin: 0 10px;
+    padding: 10px 15px;
+    margin: 0 40px;
+    color: #5d4d4d;
 }
 
 .package_benefits {
     color: #8b7979;
-    padding: 30px 10px;
+    padding: 20px 10px;
     font-size: 12px;
 }
 
+.buy_now {
+    border: none;
+    border-radius: 25px;
+    background-color: #e71e49;
+    padding: 10px 40px;
+}
+
+.buy_link {
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
