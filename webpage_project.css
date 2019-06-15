@@ -329,16 +329,26 @@
 }
 
 .price {
-    padding: 10px;
+    padding: 25px 10px;
+    color: #fff;
+    margin: 0;
 }
 
 .dollar {
-    display: inline-block;
+    display: inline;
 }
 
 .price_number {
-    display: inline-block;
-    font-size: 28px;
+    display: inline;
+    font-size: 34px;
+}
+
+.frequency {
+    margin: 0;
+}
+
+.package_type {
+
 }
 
 
