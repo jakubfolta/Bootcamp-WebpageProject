@@ -320,11 +320,11 @@
 }
 
 .prices_description {
-    padding: 0 500px;
+    padding: 50px 500px;
 }
 
 .grey_column {
-    background: linear-gradient(#5d4d4d 50%, #fff 50%);
+    background: linear-gradient(#5d4d4d 40%, #fff 40%);
     margin: 0 10px;
 }
 
@@ -349,8 +349,19 @@
 
 .package_type {
 
+    border-radius: 25px;
+    background-color: #e4dddb;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin: 0 10px;
 }
 
+.package_benefits {
+    color: #8b7979;
+    padding: 30px 10px;
+    font-size: 12px;
+}
 
 
 
