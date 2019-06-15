@@ -386,6 +386,33 @@
 
 .features {
     background-color: #fff;
+    padding: 0 300px;
+}
+
+.features_column {
+    padding: 0 10px;
+}
+
+.feature_icon {
+    display: inline;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    margin: 25px 10px;
+    color: #e71e49;
+}
+
+.feature_description {
+    display: inline;
+}
+
+.heading_5 {
+    color: #e71e49;
+    text-transform: uppercase;
+}
+
+.feature_paragraph {
+    color: #8b7979;
 }
 
 
