@@ -329,6 +329,12 @@
     padding-bottom: 20px;
 }
 
+.pink_column {
+    background: linear-gradient(#e71e40 34%, #fff 34%);
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
 .price {
     padding: 25px 10px;
     color: #fff;
