@@ -495,6 +495,7 @@
 .element_linearcolor {
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
     height: 1em;
+    width: 100%;
 
 }
 
