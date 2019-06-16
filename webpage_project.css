@@ -474,7 +474,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 200px;
-    align-items: flex-end;
+
 }
 
 .flex-1 {
@@ -485,16 +485,17 @@
     margin: 5px;
     height: 200px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.end {
+
 
 
 
 .element_linearcolor {
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
     height: 1em;
+    width: 50px;
 }
 
 
