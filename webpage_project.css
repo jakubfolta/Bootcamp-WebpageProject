@@ -464,6 +464,37 @@
     background-color: #e4dddb;
 }
 
+.gallery {
+    padding: 0 300px;
+}
+
+.img-1 {background: url(https://cdn.pixabay.com/photo/2016/03/27/12/41/gothic-1282594_1280.jpg) center/cover}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.element {
+    margin: 5px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     .col-s-1 {width: 8.33%;}
