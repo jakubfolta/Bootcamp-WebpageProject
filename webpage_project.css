@@ -484,11 +484,13 @@
 .element {
     margin: 5px;
     height: 200px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .end {
-    align-items: flex
-}
+
+
 
 .element_linearcolor {
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
