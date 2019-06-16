@@ -473,6 +473,8 @@
 .flex-row {
     display: flex;
     flex-wrap: wrap;
+    height: 200px;
+    align-items: flex-end;
 }
 
 .flex-1 {
@@ -485,7 +487,7 @@
 }
 
 .end {
-    align-items: flex-end;
+    align-items: flex
 }
 
 .element_linearcolor {
