@@ -472,7 +472,7 @@
 
 .flex-row {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .flex-1 {
@@ -484,10 +484,15 @@
     height: 200px;
 }
 
+.end {
+    align-items: flex-end;
+}
+
 .element_linearcolor {
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
-    height: 1.5em;
+    height: 1em;
 }
+
 
 
 
