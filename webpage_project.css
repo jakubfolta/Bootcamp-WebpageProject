@@ -472,29 +472,18 @@
     height: 100%;
     width: 100%;
 }
-.img-2 {background: url(https://cdn.pixabay.com/photo/2015/11/07/11/51/china-1031557_1280.jpg) center/cover}
-.img-3 {background: url(https://cdn.pixabay.com/photo/2017/07/31/20/36/dark-2560832_1280.jpg) center/cover}
+
 .img-4 {background: url(https://cdn.pixabay.com/photo/2014/07/24/05/46/pedestrian-400819_1280.jpg) center/cover}
 .img-5 {background: url(https://cdn.pixabay.com/photo/2019/06/06/08/26/silhoute-4255470_1280.jpg) center/cover}
 .img-6 {background: url(https://cdn.pixabay.com/photo/2018/06/14/08/15/japan-3474379_1280.jpg) center/cover}
 
-[class*="img-"] {
-    opacity: 0.5;
-}
 
 .layer {
     background-color: blue;
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0px;
     opacity: 0;
-}
-
-.pointy-div {
-    background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
-    height: 0.6em;
-    width: 100%;
 }
 
 .flex-icon {
@@ -516,6 +505,10 @@
     transition: 0.5s ease;
 }
 
+.element:hover .element_linearcolor {
+    opacity: 0;
+    transition: 0.5s ease;
+}
 
 .flex-row {
     display: flex;
@@ -531,9 +524,12 @@
     margin-bottom: 0;
     height: 200px;
     position:relative;
+    display: flex;
+    align-items: flex-end;
 }
 
 .element_linearcolor {
+    position: absolute;
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
     height: 0.6em;
     width: 100%;
