@@ -485,7 +485,7 @@
 }
 
 .element {
-    margin: 5px;
+    margin: 40px 5px;
     margin-bottom: 0;
     height: 200px;
     display: flex;
@@ -494,7 +494,7 @@
 
 .element_linearcolor {
     background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
-    height: 1em;
+    height: 0.6em;
     width: 100%;
 }
 
