@@ -484,7 +484,38 @@
 
 .layer {
     background-color: blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
 }
+
+.pointy-div {
+    background: linear-gradient(to top right, #e71e49 50%, rgba(0, 0, 0, 0) 52%);
+    height: 0.6em;
+    width: 100%;
+}
+
+.flex-icon {
+    position: absolute;
+    font-size: 40px;
+    top: 80px;
+    left: 100px;
+    color: #fff;
+    opacity: 0;
+}
+
+.element:hover .layer {
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.element:hover .flex-icon {
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
 
 .flex-row {
     display: flex;
@@ -499,6 +530,7 @@
     margin: 40px 5px;
     margin-bottom: 0;
     height: 200px;
+    position:relative;
 }
 
 .element_linearcolor {
