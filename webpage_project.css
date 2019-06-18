@@ -525,21 +525,6 @@
     width: 100%;
 }
 
-.element:hover .layer {
-    opacity: 0.8;
-    transition: 0.5s ease;
-}
-
-.element:hover .flex-icon {
-    opacity: 0.8;
-    transition: 0.5s ease;
-}
-
-.element:hover .element_linearcolor {
-    opacity: 0;
-    transition: 0.5s ease;
-}
-
 .element_description {
     display: flex;
     flex-direction: column;
@@ -623,6 +608,23 @@
 
     .align_left {
         text-align: left;
+    }
+}
+
+@media not all and (hover: none) {
+    .element:hover .layer {
+        opacity: 0.8;
+        transition: 0.5s ease;
+    }
+
+    .element:hover .flex-icon {
+        opacity: 0.8;
+        transition: 0.5s ease;
+    }
+
+    .element:hover .element_linearcolor {
+        opacity: 0;
+        transition: 0.5s ease;
     }
 }
 
