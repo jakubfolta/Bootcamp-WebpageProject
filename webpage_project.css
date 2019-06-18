@@ -544,7 +544,38 @@
     margin: 10px 0;
 }
 
+.show_more_arrow {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
 
+.link_container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e71e49;
+}
+
+.show_more_paragraph {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.show_more_icon {
+    font-size: 20px;
+}
 
 
 
