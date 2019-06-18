@@ -88,10 +88,6 @@
     display: inline;
 }
 
-.item_link:hover {
-    color: #d73c3c;
-}
-
 .offer {
     text-align: center;
 }
@@ -577,6 +573,36 @@
     font-size: 20px;
 }
 
+.similar {
+    background-color: #8747ff;
+    background: url("https://cdn.pixabay.com/photo/2015/12/08/00/36/woman-1081873_1280.jpg") center/cover;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.similar_heading {
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.similar_paragraph {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.line_container {
+    display: flex;
+    justify-content: center;
+}
+
+.short_line {
+    width: 250px;
+    height: 3px;
+    background-color: #e71e49;
+}
+
 
 
 
@@ -656,6 +682,10 @@
     .element:hover .element_linearcolor {
         opacity: 0;
         transition: 0.5s ease;
+    }
+
+    .item_link:hover {
+        color: #d73c3c;
     }
 }
 
