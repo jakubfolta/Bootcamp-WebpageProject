@@ -7,7 +7,7 @@
 * HTML5, CSS3
 
 ## Status
-Project is UNfinished.<br>
+Project is finished. Project isn't responsive yet.<br>
 
 ## Graphic from client 
 ![Example](./images/example.jpg)
